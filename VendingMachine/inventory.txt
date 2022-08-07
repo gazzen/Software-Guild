@@ -1,0 +1,5 @@
+1::Candy Worms::8::1
+2::Sour Patch Kids::8::1.25
+3::Hot Tamales::1::0.75
+4::Laffy Taffy::0::1.50
+5::Peanut Butter Snickers::0::2.00
