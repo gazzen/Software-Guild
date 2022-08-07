@@ -9,10 +9,7 @@ import com.mycompany.vendingmachine.ui.UserIOConsoleImpl;
 import com.mycompany.vendingmachine.dao.VendingMachineDao;
 import com.mycompany.vendingmachine.service.VendingMachineServiceLayer;
 
-/**
- *
- * @author n0252282
- */
+
 public class App {
 
     public static void main(String[] args) {

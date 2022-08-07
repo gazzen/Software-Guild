@@ -5,10 +5,7 @@
  */
 package com.mycompany.vendingmachine.service;
 
-/**
- *
- * @author n0252282
- */
+
 public class Change {
 
     private int numPennies = 0;

@@ -7,10 +7,7 @@ package com.mycompany.vendingmachine.ui;
 
 import java.math.BigDecimal;
 
-/**
- *
- * @author n0252282
- */
+
 public interface UserIO {
 
     void print(String msg);

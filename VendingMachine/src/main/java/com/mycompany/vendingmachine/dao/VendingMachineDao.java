@@ -9,10 +9,7 @@ import com.mycompany.vendingmachine.dto.Item;
 import com.mycompany.vendingmachine.service.NoItemInventoryException;
 import java.util.List;
 
-/**
- *
- * @author n0252282
- */
+
 public interface VendingMachineDao {
 
     //Item addItem(String studentId, Item student) throws VendingMachinePersistenceException;

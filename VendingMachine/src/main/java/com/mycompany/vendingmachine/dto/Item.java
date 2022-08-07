@@ -8,10 +8,7 @@ package com.mycompany.vendingmachine.dto;
 
 import java.math.BigDecimal;
 
-/**
- *
- * @author n0252282
- */
+
 public class Item {
 
     private String itemID;

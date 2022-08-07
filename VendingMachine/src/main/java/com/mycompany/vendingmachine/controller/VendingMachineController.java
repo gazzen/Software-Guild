@@ -7,10 +7,7 @@ import com.mycompany.vendingmachine.service.NoItemInventoryException;
 import com.mycompany.vendingmachine.ui.VendingMachineView;
 import com.mycompany.vendingmachine.service.VendingMachineServiceLayer;
 
-/**
- *
- * @author n0252282
- */
+
 public class VendingMachineController {
 
     VendingMachineView view;

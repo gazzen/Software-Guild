@@ -20,10 +20,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-/**
- *
- * @author n0252282
- */
+
 public class VendingMachineDaoFileImpl implements VendingMachineDao {
 
     public static final String INVENTORY_FILE = "inventory.txt";
