@@ -7,7 +7,7 @@ JOIN Room ON Reservation.roomID = Room.roomID
 WHERE MONTH(end_date) = 7 AND YEAR(end_date) = 2023;
 
 -- Walter Holaway	204	2023-07-13 00:00:00	2023-07-14 00:00:00
--- Cindy Okino	205	2023-06-28 00:00:00	2023-07-02 00:00:00
+-- Gajendra Suwal	205	2023-06-28 00:00:00	2023-07-02 00:00:00
 -- Bettyann Seery	303	2023-07-28 00:00:00	2023-07-29 00:00:00
 -- Wilfred Vise	401	2023-07-18 00:00:00	2023-07-21 00:00:00
 -- ===========================================================================================================================
@@ -21,7 +21,7 @@ JOIN RoomAmenity ON Room.roomID = RoomAmenity.roomID AND RoomAmenity.amenityID =
 -- Karie Yang	201	2023-03-06 00:00:00	2023-03-07 00:00:00
 -- Bettyann Seery	203	2023-02-05 00:00:00	2023-02-10 00:00:00
 -- Karie Yang	203	2023-09-13 00:00:00	2023-09-15 00:00:00
--- Cindy Okino	205	2023-06-28 00:00:00	2023-07-02 00:00:00
+-- Gajendra Suwal	205	2023-06-28 00:00:00	2023-07-02 00:00:00
 -- Wilfred Vise	207	2023-04-23 00:00:00	2023-04-24 00:00:00
 -- Walter Holaway	301	2023-04-09 00:00:00	2023-04-13 00:00:00
 -- Mack Simmer	301	2023-11-22 00:00:00	2023-11-25 00:00:00
@@ -42,8 +42,8 @@ FROM Reservation
 INNER JOIN Room ON Reservation.roomID = Room.roomID 
 WHERE Reservation.guestID = 1;
 
--- Cindy Okino	307	2023-03-17 00:00:00	2
--- Cindy Okino	205	2023-06-28 00:00:00	2
+-- Gajendra Suwal	307	2023-09-1 00:00:00	2
+-- Gajendra Suwal	205	2023-06-28 00:00:00	2
 -- ===========================================================================================================================
 
 -- 4. Write a query that returns a list of rooms, reservation ID, and per-room cost for each reservation. The results should include all rooms, whether or not there is a reservation associated with the room.
@@ -99,7 +99,7 @@ ORDER BY total_reservation DESC;
  
 -- Simmer	4
 -- Seery	3
--- Okino	2
+-- Suwal	2
 -- Cullison	2
 -- Yang	2
 -- Lipton	2
