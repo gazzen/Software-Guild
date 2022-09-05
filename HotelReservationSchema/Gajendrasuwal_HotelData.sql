@@ -25,7 +25,7 @@ INSERT INTO room (room_number, ada_accessible, standard_occupancy, maximun_occup
 	(402, 'Yes', 3, 8, 399.99, 20.0, 3);
 
 INSERT INTO Guest (`name`, address, city, state, zip, phone) VALUES
-	('Cindy Okino',	'Your Address',	'Montréal', 'QC', 'H0H0H0', '(123) 123-4567'),
+	('Gajendra Suwal',	'30 Gilder Drive',	'Toronto', 'ON', 'M1K4P6', '(437) 972-0440'),
 	('Mack Simmer',	'379 Old Shore Street',	'Council Bluffs', 'IA',	'51501', '(291) 553-0508'),
 	('Bettyann Seery', '750 Wintergreen Dr.', 'Wasilla', 'AK',	'99654', '(478) 277-9632'),
 	('Duane Cullison', '9662 Foxrun Lane', 'Harlingen', 'TX', '78552', '(308) 494-0198'),
@@ -43,7 +43,7 @@ INSERT INTO reservation (name, adults, children, start_date, end_date, total_roo
 	('Bettyann Seery', 2, 1, '2023-2-5', '2023-2-10', 999.95, 3, 3),
 	('Duane Cullison', 2, 0, '2023-2-22', '2023-2-24', 349.98, 13, 4),
 	('Karie Yang', 2, 2, '2023-3-6', '2023-3-7', 199.99, 1, 5),
-	('Cindy Okino', 1, 1, '2023-3-17', '2023-3-20', 524.97, 15, 1),
+	('Gajendra Suwal', 1, 1, '2023-9-1', '2023-9-3', 524.97, 15, 1),
 	('Aurore Lipton', 3, 0, '2023-3-18', '2023-3-23', 924.95, 10, 6),
 	('Zachery Luechtefeld', 2, 2, '2023-3-29', '2023-3-31', 349.98, 2, 7),
 	('Jeremiah Pendergrass', 2, 0, '2023-3-31', '2023-4-5', 874.95, 12, 8),
